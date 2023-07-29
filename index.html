@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>60 Minute Website</title>
+        <style>
+            :root {
+                --primary-color: #635eff;
+                --secondary-color: #ffcccc;
+                --tertiary-color: #f7f7f7;
+                --link-color: #1b7c0c;
+                line-height: 1.5;
+            }
+            html, body {
+                font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+            nav {
+                background-color: var(--primary-color);
+                padding: 1rem;
+                text-align: center;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+                color: white;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            #intro_banner {
+                background: url("https://events.indieweb.org/storage/events/20201204-PoHDOxWZ26mkbS4T6Uf5mQdBnV48GR.jpg");
+                background-size: cover;
+                color: white;
+                padding: 1rem;
+                text-align: center;
+            }
+            #intro_banner h1 {
+                font-size: 3rem;
+            }
+            #what_is_60min {
+                background-color: var(--secondary-color);
+                display: flex;
+                justify-content: center;
+            }
+            #how_it_works {
+                background-color: var(--tertiary-color);
+            }
+            #how_it_works .content {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            section, footer {
+                padding: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>60 Minute Website</li>
+            </ul>
+        </nav>
+        <main>
+            <section id="intro_banner">
+                <div class="grey_box">
+                    <h1>60 Minute Website</h1>
+                    <p>Build a website in 60 minutes!</p>
+                    <p>Next meetup is on <time datetime="2020-07-15">Wednesday, July 15th</time> at 7pm.</p>
+                </div>
+            </section>
+            <section id="what_is_60min">
+                <div style="flex: 0 50%; margin-right: 1em;">
+                    <h2>What is 60 Minute Website?</h2>
+                    <p>60 Minute Website is an online event where you are challenged to make a website in one hour. You can use any technology you like, from WordPress to HTML to Python.</p>
+                    <p>At the end of the hour, participants share what they have worked on. We anticipate projects are incomplete and rough around the edges. At the end of the day, you can say "I built a website in an hour!"</p>
+                </div>
+                <div style="flex: 1 50%;">
+                    <p>No technical knowledge is required to participate.</p>
+
+                    <p>Use the 60 Minute Website challenge as a way to:</p>
+                        
+                    <ul>
+                        <li>Start a presence on the web</li>
+                        <li>Start working on a project that has been on your mind for a while</li>
+                        <li>Try out a new technology</li>
+                    </ul>
+
+                    Most importantly, you should have fun 🎉! What you build is up to you.
+                </div>
+            </section>
+            <section id="how_it_works">
+                <div class="content">
+                    <h2>How it Works</h2>
+
+                    <h3>Before the Event</h3>
+                    <p>Before the event, we encourage you to come up with an idea of what to build. This allows you to make the best use of the one hour available for making your website.</p>
+
+                    <h3>Introductions</h3>
+                        
+                    <p>At the beginning of the meetup, participants are invited to introduce themselves. The organizer reads over the rules for the event, then starts a one hour timer. This starts your time to make something awesome!</p>
+                        
+                    <h3>Time to Create</h3>
+                        
+                    <p>Throughout the meeting, the organizer will give time updates.</p>
+                        
+                    <h3>Presentations</h3>
+                        
+                    <p>After one hour, everyone is invited to take their fingers off their keyboards (the fun, web way of "putting your pencils down" like you would after an exam) and share their projects. Sharing what you made is optional but highly encouraged!</p>
+                </div>
+            </section>
+            <section id="past_projects">
+                <h2>What Community Members Have Made</h2>
+                <p>In our first meetup, participants worked on, among other things:</p>
+
+                <ol>
+                    <li>Setting up a blog with WordPress</li>
+                    <li>A web page to list bookmarks</li>
+                    <li>A personal fan fiction home page</li>
+                    <li>An online <i>I, Spy</i> game</li>
+                    <li>A web tool for working with PNGs</li>
+                </ol>
+                // add image grid here
+            </section>
+            <section id="rules">
+                <h1>Rules</h1>
+                <p>The rules for the event are:</p>
+                <ol>
+                    <li>You must build a new web page or website. New pages on an existing website are allowed.</li>
+                    <li>You only have an hour to build your website.</li>
+                    <li>You can use any technology you want to build your web page, from WordPress to micro.blog to code.</li>
+                </ol>
+                <p>
+                    You don't have to publish anything on the web as part of this challenge, although it would be amazing if you published what you make one day!
+                </p>
+                <p>
+                    This event is governed by the <a href="https://indieweb.org/code-of-conduct" target="_blank">IndieWeb Code of Conduct</a>. Please familiarise yourself with the Code of Conduct before attending the meetup.
+                </p>
+            </section>
+            <section id="participate">
+                <h2>Join Us on X</h2>
+
+                <p>The next 60 Minute Website meetup is on []. To RSVP, email 60minutewebsite@jamesg.blog.</p>
+
+                <p>If you have a personal website that supports IndieAuth, you can also RSVP on the IndieWeb Events page for the meetup.</p>
+            </section>
+            <footer>
+                <p>This meetup is part of the IndieWeb, a community of people working on, and interested in, personal websites.</p>
+                <p>This website was made by <a href="https://jamesg.blog">James</a> and <a href="https://marksuth.dev">Mark</a>.</p>
+                <p><a href="https://github.com/capjamesg/60minute.site">View the website source code</a>.</p>
+            </footer>
+        </main>
+    </body>
+</html>
